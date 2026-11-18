@@ -16,5 +16,5 @@ import kotlinx.serialization.Serializable
 data class GastroPref(
     val budgetRange: BudgetRange = BudgetRange.ECONOMIC,
     val localType: LocalType = LocalType.BAR,
-    val favCuisine: Set<CuisineType> = emptySet<CuisineType>()
+    val favCuisine: Set<CuisineType> = emptySet()
 )
