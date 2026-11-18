@@ -62,6 +62,7 @@ enum class LocalType {
     THEME_PARK,
     BAKERY,
     COCTEL_BAR,
+    FOOD_EVENT,
 }
 
 // --- Tipos de cocinas ---
