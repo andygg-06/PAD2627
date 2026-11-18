@@ -1,12 +1,17 @@
 package com.app.pad2627.model
 
-/* ENUM CLASS UserPreferences (Preferencias): contiene los enumerados de la clase Usuario
-    - Rol
-    - Tema de la interfaz: claro oscuro
-    - Lenguaje de la aplicación: español, inglés
-    - Tipo de dietas: vegetariano, vegano ...
-    - Alergias (siguiendo la normativa europea)
-    - Tipos de cocinas: italiana, japonesa ...
+/* ENUM CLASS Preferences (Preferencias): contiene los enumerados con las posibles opciones
+    - Enumerados de Usuario:
+        - Rol: cliente, hostelero
+    - Enumerados Ajustes:
+        - Tema de la interfaz: claro oscuro
+        - Lenguaje de la aplicación: español, inglés
+    - Enumerados de Salud:
+        - Tipo de dietas: vegetariano, vegano ...
+        - Alergias (siguiendo la normativa europea)
+    - Enumerados de locales:
+        - Tipo de local
+        - Tipos de cocinas: italiana, japonesa ...
  */
 
 // --- Tipo de roles ---
