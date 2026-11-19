@@ -17,7 +17,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.resources.painterResource
 
 import pad2627.shared.generated.resources.Res
-import pad2627.shared.generated.resources.compose_multiplatform
+import pad2627.shared.generated.resources.nav_home
+import pad2627.shared.generated.resources.nav_meet
+import pad2627.shared.generated.resources.nav_user
+import pad2627.shared.generated.resources.nav_chats
+import pad2627.shared.generated.resources.nav_restaurant
 
 @Composable
 @Preview
