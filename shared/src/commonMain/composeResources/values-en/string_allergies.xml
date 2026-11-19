@@ -1,0 +1,18 @@
+<!-- (English) Textos para alergias -->
+
+<resources>
+    <string name="gluten">Gluten</string>
+    <string name="nuts">Nuts</string>
+    <string name="fish">Fish</string>
+    <string name="milk">Lactose</string>
+    <string name="soy">Soy</string>
+    <string name="crustaceans">Crustaceans</string>
+    <string name="Molluscs">Molluscs</string>
+    <string name="eggs">Eggs</string>
+    <string name="peanuts">Peanuts</string>
+    <string name="celery">Celery</string>
+    <string name="mustard">Mustard</string>
+    <string name="sesame">Sesame</string>
+    <string name="lupins">Lupins</string>
+    <string name="sulfur">Sulfur</string>
+</resources>
