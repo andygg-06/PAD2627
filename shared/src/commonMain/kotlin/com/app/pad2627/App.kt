@@ -1,52 +1,45 @@
 package com.app.pad2627
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.safeContentPadding
+
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import org.jetbrains.compose.resources.painterResource
+
+import com.app.pad2627.model.AppLanguage
+import com.app.pad2627.model.user.UserSettings
+
+import org.jetbrains.compose.resources.stringResource
 
 import pad2627.shared.generated.resources.Res
-import pad2627.shared.generated.resources.nav_home
 import pad2627.shared.generated.resources.nav_meet
-import pad2627.shared.generated.resources.nav_user
-import pad2627.shared.generated.resources.nav_chats
-import pad2627.shared.generated.resources.nav_restaurant
 
 @Composable
 @Preview
 fun App() {
-    MaterialTheme {
-        var showContent by remember { mutableStateOf(false) }
-        Column(
-            modifier = Modifier
-                .background(MaterialTheme.colorScheme.primaryContainer)
-                .safeContentPadding()
-                .fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-        ) {
-            Button(onClick = { showContent = !showContent }) {
-                Text("Click me!")
-            }
-            AnimatedVisibility(showContent) {
-                val greeting = remember { Greeting().greet() }
-                Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                ) {
-                    Image(painterResource(Res.drawable.compose_multiplatform), null)
-                    Text("Compose: $greeting")
-                }
+    var settings by remember { mutableStateOf(UserSettings()) }
+
+    key(settings.language) {
+        applyLanguage(settings.language)
+        MaterialTheme {
+            Column(Modifier.safeContentPadding().fillMaxSize()) {
+                Text(stringResource(Res.string.nav_meet))
+                Button(onClick = {
+                    val next = if (settings.language == AppLanguage.ES) AppLanguage.EN else AppLanguage.ES
+                    settings = settings.copy(language = next)
+                }) { Text("ES / EN") }
             }
         }
     }
