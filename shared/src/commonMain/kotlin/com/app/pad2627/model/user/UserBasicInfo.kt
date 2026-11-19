@@ -1,5 +1,6 @@
 package com.app.pad2627.model.user
 
+import com.app.pad2627.model.Geolocation
 import kotlinx.serialization.Serializable
 
 /*  DATA CLASS USERBASICINFO: contiene los datos básicos del usuario.
