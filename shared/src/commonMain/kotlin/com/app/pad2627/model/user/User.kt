@@ -1,6 +1,5 @@
 package com.app.pad2627.model.user
 
-import com.app.pad2627.model.Rol
 import kotlinx.serialization.Serializable
 
 

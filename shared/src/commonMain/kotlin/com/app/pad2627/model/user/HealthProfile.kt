@@ -1,7 +1,7 @@
 package com.app.pad2627.model.user
 
-import com.app.pad2627.model.Allergies
-import com.app.pad2627.model.DietType
+import com.app.pad2627.model.enums.Allergies
+import com.app.pad2627.model.enums.DietType
 import kotlinx.serialization.Serializable
 
 /*  DATA CLASS HEALTHPROFILE: contiene la información de salud del usuario

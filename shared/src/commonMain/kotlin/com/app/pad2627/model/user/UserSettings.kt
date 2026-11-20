@@ -1,7 +1,5 @@
 package com.app.pad2627.model.user
 
-import com.app.pad2627.model.AppLanguage
-import com.app.pad2627.model.AppTheme
 import kotlinx.serialization.Serializable
 
 
@@ -12,6 +10,6 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class UserSettings(
-    val theme: AppTheme = AppTheme.CLARO,
+    val theme: AppTheme = AppTheme.LIGHT,
     val language: AppLanguage = AppLanguage.ES,
 )

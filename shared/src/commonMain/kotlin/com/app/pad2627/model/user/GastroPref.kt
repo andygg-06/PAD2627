@@ -1,8 +1,8 @@
 package com.app.pad2627.model.user
 
-import com.app.pad2627.model.BudgetRange
-import com.app.pad2627.model.CuisineType
-import com.app.pad2627.model.LocalType
+import com.app.pad2627.model.enums.BudgetRange
+import com.app.pad2627.model.enums.CuisineType
+import com.app.pad2627.model.enums.LocalType
 import kotlinx.serialization.Serializable
 
 
