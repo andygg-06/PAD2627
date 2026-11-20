@@ -1,0 +1,7 @@
+<!-- (Español) Textos para tipos de dieta -->
+
+<resources>
+    <string name="diet_none">Ninguna</string>
+    <string name="diet_vegetarian">Vegetariana</string>
+    <string name="diet_vegan">Vegana</string>
+</resources>

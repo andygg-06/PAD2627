@@ -1,18 +1,18 @@
 <!-- (Español) Textos para alergias -->
 
 <resources>
-    <string name="gluten">Gluten</string>
-    <string name="nuts">Frutos de cáscara</string>
-    <string name="fish">Pescado</string>
-    <string name="milk">Lactosa</string>
-    <string name="soybeans">Soja</string>
-    <string name="crustaceans">Crustáceos</string>
-    <string name="Molluscs">Moluscos</string>
-    <string name="eggs">Huevos</string>
-    <string name="peanuts">Cacahuetes</string>
-    <string name="celery">Apio</string>
-    <string name="mustard">Mostaza</string>
-    <string name="sesame">Sésamo</string>
-    <string name="lupins">Altramuces</string>
-    <string name="sulfur">Sulfitos</string>
+    <string name="allergies_gluten">Gluten</string>
+    <string name="allergies_nuts">Frutos de cáscara</string>
+    <string name="allergies_fish">Pescado</string>
+    <string name="allergies_milk">Lactosa</string>
+    <string name="allergies_soy">Soja</string>
+    <string name="allergies_crustaceans">Crustáceos</string>
+    <string name="allergies_molluscs">Moluscos</string>
+    <string name="allergies_eggs">Huevos</string>
+    <string name="allergies_peanuts">Cacahuetes</string>
+    <string name="allergies_celery">Apio</string>
+    <string name="allergies_mustard">Mostaza</string>
+    <string name="allergies_sesame">Sésamo</string>
+    <string name="allergies_lupins">Altramuces</string>
+    <string name="allergies_sulfur">Sulfitos</string>
 </resources>

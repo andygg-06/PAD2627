@@ -1,9 +1,9 @@
 <!-- (Español) Textos para barra de navegación -->
 
 <resources>
-<string name="nav_home">Inicio</string>
-<string name="nav_user">Perfil</string>
-<string name="nav_chats">Chats</string>
-<string name="nav_meet">Personas</string>
-<string name="nav_restaurant">Restaurantes</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_user">Perfil</string>
+    <string name="nav_chats">Chats</string>
+    <string name="nav_meet">Personas</string>
+    <string name="nav_restaurant">Restaurantes</string>
 </resources>
