@@ -1,0 +1,62 @@
+<!-- ENGLISH -->
+
+<!-- =============== Preferences (model/enums) =============== -->
+<resources>
+
+    <!-- Allergies.kt -->
+    <string name="allergies_celery">Celery</string>
+    <string name="allergies_crustaceans">Crustaceans</string>
+    <string name="allergies_eggs">Eggs</string>
+    <string name="allergies_fish">Fish</string>
+    <string name="allergies_gluten">Gluten</string>
+    <string name="allergies_lactose">Lactose</string>
+    <string name="allergies_lupins">Lupins</string>
+    <string name="allergies_molluscs">Molluscs</string>
+    <string name="allergies_mustard">Mustard</string>
+    <string name="allergies_nuts">Nuts</string>
+    <string name="allergies_peanuts">Peanuts</string>
+    <string name="allergies_sesame">Sesame</string>
+    <string name="allergies_soy">Soy</string>
+    <string name="allergies_sulfur">Sulfur</string>
+
+    <!-- AppLanguage.kt -->
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+
+    <!-- AppTheme.kt -->
+    <string name="theme_dark">Dark theme</string>
+    <string name="theme_light">Light theme</string>
+
+    <!-- BudgetRange.kt -->
+    <string name="budget_economic">Economic ($)</string>
+    <string name="budget_medium">Medium($$)</string>
+    <string name="budget_premium">Premium ($$$)</string>
+
+    <!-- CuisineType.kt -->
+    <string name="cuisine_america">American</string>
+    <string name="cuisine_china">Chinese</string>
+    <string name="cuisine_greece">Greek</string>
+    <string name="cuisine_india">Indian</string>
+    <string name="cuisine_italy">Italian</string>
+    <string name="cuisine_japan">Japanese</string>
+    <string name="cuisine_korean">Korean</string>
+    <string name="cuisine_mexico">Mexican</string>
+
+    <!-- DietType.kt -->
+    <string name="diet_none">None</string>
+    <string name="diet_vegan">Vegan</string>
+    <string name="diet_vegetarian">Vegetarian</string>
+
+    <!-- LocalType.kt -->
+    <string name="local_bakery">Bakery</string>
+    <string name="local_bar">Bar</string>
+    <string name="local_coctel_bar">Coctel bar</string>
+    <string name="local_fair">Fair</string>
+    <string name="local_restaurant">Restaurant</string>
+    <string name="local_amusement park">Amusement park</string>
+
+    <!-- Rol.kt -->
+    <string name="rol_client">Client</string>
+    <string name="rol_business">Business</string>
+
+</resources>

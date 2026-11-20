@@ -4,18 +4,18 @@ package com.app.pad2627.model.enums
 
 enum class Allergies {
     // Normativa Europea de alergias
-    GLUTEN, //gluten
-    NUTS, // frutos de cáscara
-    FISH, // pescado
-    MILK, // leche y derivados
-    SOYBEANS, // soja
-    CRUSTACEANS, // crustáceos
-    MOLLUSCS, // moluscos
-    EGGS, // huevos
-    PEANUTS, // cacahuetes
     CELERY, // apio
-    MUSTARD, // mostaza
-    SESAME, // sésamo
+    CRUSTACEANS, // crustáceos
+    EGGS, // huevos
+    FISH, // pescado
+    GLUTEN, //gluten
     LUPINS, // altramuces
+    MILK, // leche y derivados
+    MOLLUSCS, // moluscos
+    MUSTARD, // mostaza
+    NUTS, // frutos de cáscara
+    PEANUTS, // cacahuetes
+    SESAME, // sésamo
+    SOY, // soja
     SULFUR, // sulfitos
 }

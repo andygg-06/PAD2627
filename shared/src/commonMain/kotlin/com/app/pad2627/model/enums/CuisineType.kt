@@ -2,12 +2,12 @@ package com.app.pad2627.model.enums
 
 enum class CuisineType {
     // por zona geográfica
-    JAPAN,
-    ITALY,
-    MEXICO,
-    INDIA,
+    AMERICA,
     CHINA,
     GREECE,
-    AMERICA,
+    INDIA,
+    ITALY,
+    JAPAN,
     KOREAN,
+    MEXICO,
 }

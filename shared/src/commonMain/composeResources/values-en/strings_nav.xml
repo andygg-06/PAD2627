@@ -1,9 +1,12 @@
-<!-- (English) Textos para barra de navegación -->
+<!-- ENGLISH -->
 
+<!-- =============== Navigation bar =============== -->
 <resources>
-    <string name="nav_home">Home</string>
-    <string name="nav_user">Profile</string>
+
     <string name="nav_chats">Chats</string>
+    <string name="nav_home">Home</string>
     <string name="nav_meet">Meet</string>
     <string name="nav_restaurant">Restaurants</string>
+    <string name="nav_user">User</string>
+
 </resources>

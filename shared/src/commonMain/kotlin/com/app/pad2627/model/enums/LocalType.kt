@@ -1,10 +1,10 @@
 package com.app.pad2627.model.enums
 
 enum class LocalType {
-    BAR,
-    RESTAURANT,
-    THEME_PARK,
     BAKERY,
+    BAR,
     COCTEL_BAR,
-    FOOD_EVENT,
+    FAIR, // ferias
+    RESTAURANT,
+    AMUSEMENT_PARK, // parques de atracciones
 }

@@ -1,6 +1,6 @@
 package com.app.pad2627.model.enums
 
 enum class Rol {
-    CLIENTE,
-    HOSTELERO,
+    CLIENT,
+    BUSINESS, // dueños de un servicio
 }
