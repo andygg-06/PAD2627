@@ -18,7 +18,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
-import com.app.pad2627.model.AppLanguage
+import com.app.pad2627.model.enums.AppLanguage
 import com.app.pad2627.model.user.UserSettings
 
 import org.jetbrains.compose.resources.stringResource
