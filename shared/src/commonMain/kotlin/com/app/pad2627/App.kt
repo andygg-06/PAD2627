@@ -23,8 +23,7 @@ import com.app.pad2627.model.user.UserSettings
 
 import org.jetbrains.compose.resources.stringResource
 
-import pad2627.shared.generated.resources.Res
-import pad2627.shared.generated.resources.nav_meet
+import pad2627.shared.generated.resources.*
 
 @Composable
 @Preview
